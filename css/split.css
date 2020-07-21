@@ -1,0 +1,42 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: "Montserrat",  sans-serif;
+}
+.container{
+	height: 100vh;
+	display: flex;
+	background-color: #262626;
+}
+section{
+	height: 100%;
+	display: flex;
+	align-items: center;
+	/*background-color: pink;*/
+	justify-content: center;
+	flex: 1;
+}
+section h1{
+	background-color: rgba(0.0.0.0.5);
+	color: pink;
+	padding: 13px 32px;
+}
+.pan{
+	background: url(https://i.pinimg.com/originals/6d/46/e4/6d46e40431742d59a51a166f1bcecdf0.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+.wolf{
+	background: url(https://66.media.tumblr.com/ba7c56e36eb9df415cdc653348f21d31/tumblr_pkg79aj9qF1rhe8jbo1_500.jpg);
+	background-position: center;
+	background-size: cover;
+	background-blend-mode: multiply;
+}
+h1:hover{
+	background-color: #f4c2c2;
+	color: #000;
+	flex: 2;
+}
